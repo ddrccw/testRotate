@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="bgW-ZD-bf4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kor-FZ-rhF">
+                    <rect key="frame" x="59" y="67" width="61" height="30"/>
+                    <state key="normal" title="method1">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="method1:" destination="-1" eventType="touchUpInside" id="dFT-xF-GmL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ipg-FS-fwO">
+                    <rect key="frame" x="206" y="67" width="61" height="30"/>
+                    <state key="normal" title="method2">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="method2:" destination="-1" eventType="touchUpInside" id="nul-Rh-Uha"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0QT-8Q-YNC">
+                    <rect key="frame" x="59" y="165" width="61" height="30"/>
+                    <state key="normal" title="method3">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="method3:" destination="-1" eventType="touchUpInside" id="WHv-p7-KTY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4rb-hi-lms">
+                    <rect key="frame" x="206" y="165" width="61" height="30"/>
+                    <state key="normal" title="method4">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="method4:" destination="-1" eventType="touchUpInside" id="QvF-4U-uW8"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="kor-FZ-rhF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="67" id="5Y1-Xn-fYK"/>
+                <constraint firstItem="Ipg-FS-fwO" firstAttribute="leading" secondItem="kor-FZ-rhF" secondAttribute="trailing" constant="86" id="Cis-Vu-KK2"/>
+                <constraint firstItem="kor-FZ-rhF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="59" id="Mt0-C8-AyK"/>
+                <constraint firstItem="4rb-hi-lms" firstAttribute="leading" secondItem="0QT-8Q-YNC" secondAttribute="trailing" constant="86" id="UbK-Ct-FoJ"/>
+                <constraint firstItem="4rb-hi-lms" firstAttribute="top" secondItem="Ipg-FS-fwO" secondAttribute="bottom" constant="68" id="cA3-h0-Ro9"/>
+                <constraint firstItem="0QT-8Q-YNC" firstAttribute="top" secondItem="kor-FZ-rhF" secondAttribute="bottom" constant="68" id="kNX-6m-S5M"/>
+                <constraint firstItem="0QT-8Q-YNC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="59" id="pRC-P1-hKj"/>
+                <constraint firstItem="Ipg-FS-fwO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="67" id="xTO-wb-zIS"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>
